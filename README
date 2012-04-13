@@ -1,3 +1,9 @@
+Originally written by Keith Poole AKA keedon 
+	keith.poole [at] gmail.com
+
+Made into an Eclipse Project by Rob Roche AKA Shifty0x88 
+	shiftyx0 [at] gmail.com
+
 DCPU-16 emulator written in Java with a Swing front-end.
 
 This is a very early version which does display the DCPU screen
@@ -6,13 +12,6 @@ sample program to go from.
 
 To use.
 
-You will need gradle installed to run the build.
-Running "gradle run" will start the emulator.  There are three menu options at the moment:
-
-If you don't want to install gradle, there is a pre-built binary, to run:
-
-java -jar build/libs/dcpu.jar
-
 File>Load - will load a hex dump (see the test directory for examples)
 File>Run - will run the emulation. A trace of the CPU running is written to sysout.
 File>Assemble - will assemble a file and put the resulting .hex file in the same directory as the asm file
@@ -20,4 +19,5 @@ File>Assemble - will assemble a file and put the resulting .hex file in the same
 TODO:
  * Add keyboard support that works
  * Add floppy disk support (when there are some more details)
- * Better error handling
+ * Better error handling and reporting
+ * More Intuitive GUI
